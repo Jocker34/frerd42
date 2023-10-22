@@ -17,3 +17,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* at this point I would normally use something like reset css */
+/* http://web.simmons.edu/~grovesd/comm244/notes/week4/css-reset */

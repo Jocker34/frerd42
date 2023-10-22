@@ -1,7 +1,7 @@
 import { Todo } from './pages/Todo';
 
 const App = () => {
-	return <Todo />;
+  return <Todo />;
 };
 
 export default App;

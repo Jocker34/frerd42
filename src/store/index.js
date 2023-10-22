@@ -1,7 +1,7 @@
 import {
-	combineReducers,
-	legacy_createStore as createStore,
-	compose,
+  combineReducers,
+  legacy_createStore as createStore,
+  compose,
 } from 'redux';
 import { tasksReducer } from './reducer';
 

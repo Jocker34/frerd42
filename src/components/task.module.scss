@@ -1,20 +1,25 @@
 $color-red: #FF4742;
 $color-white: #F2F2F2;
-$color-green: #BCFFB7;
+$color-light-blue: #b2d3ff;
 
 
 .uncompleted,
 .completed {
     display: flex;
     flex: 1;
-    margin: 10px 0;
+    margin: 20px 0;
     
-    p {
-        flex: auto;
-        &.completed {
-            text-decoration: line-through;
-        }
-    }
+
+}
+.puncompleted,
+.pcompleted {
+    display: flex;
+    flex: 1;
+    flex: auto;
+    padding-right: 20px;
+}
+.pcompleted {
+    text-decoration: line-through;
 }
 
 .uncompleted {
@@ -22,7 +27,7 @@ $color-green: #BCFFB7;
 }
 
 .completed {
-    background: $color-green;
+    background: $color-light-blue;
 }
 
 .button {
@@ -37,4 +42,7 @@ $color-green: #BCFFB7;
     line-height: 16px;
     padding: 12px 14px;
   }
-  
+
+.input {
+    margin: 0 8px 0 8px;
+}
